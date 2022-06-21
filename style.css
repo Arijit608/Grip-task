@@ -1,0 +1,45 @@
+nav {
+    font-size: 14px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    border: 2px solid;
+    background-color: rgb(90, 187, 26);
+   
+}
+body{
+    background-color: skyblue;
+    font-weight: 200;
+    margin-left: 5px;
+    
+}
+h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.4;
+}
+#banking{
+   
+margin: 2em;
+width: 70%;
+height: 400px;
+
+}
+.aboutbank{
+    height: 360px;
+    box-shadow: 1px 2px 10px 5px white;
+animation: slider 10s infinite linear;
+font-size: 50px;
+}
+@keyframes slider {
+    0%{background-image: url("images/2.jpg");}
+    25%{background-image: url("images/8.jpg");}
+    50%{background-image: url("images/4.jpg");}
+    75%{background-image: url("images/6.jpg");}
+}
+.aboutbank{
+    position: relative;
+
+}
